@@ -16,22 +16,3 @@ fetch(url)
 
 
     
-//function funny() {
-//    if (funnyanswer() = true);
-//    console.log('They think it is funny!');
-//} else {
-//    console.log('They do not think it is funny');
-//}
-
-//function funny() {
-//    document.getElementById("funnyanswer").innerHTML = '<div class="temp">' + response.value.joke + '</div>';
-//}
-
-    //function myFunction(x) {
-//if (x.code != undefined);
-//}
-//document.getElementById(x).play();
-//console.log("Play");
-
-//document.getElementById("funnyanswer").style.color = "red";
-//document.getElementById("funnyanswer").activeElement = '<div class="temp">' + response.value.joke + '</div>';
