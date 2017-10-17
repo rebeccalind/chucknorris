@@ -1,0 +1,87 @@
+.background img {
+    width: 110%;
+    margin-left: -10px;
+    margin-top: -80px;
+    position: fixed;
+}
+
+#container {
+    position: absolute;
+    z-index: 100;
+    margin-top: 160px;
+    width: 1000px;
+    margin-left: 200px;
+}
+
+.temp {
+    color: white;
+    font-size: 30px;
+    font-family: Poppins;
+    text-align: center;
+}
+
+a {
+    font-family: Poppins;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: Poppins;
+    color: indianred;
+    text-decoration: none;
+}
+
+.answer_button {
+    width: 100%;
+    margin-left: 400px;
+    padding-top: 20px;
+    text-decoration: none;
+    z-index: 200;
+    position: absolute;
+    margin-top: 400px;
+}
+
+#funnyanswer {
+    background-color: indianred;
+    width: 250px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    margin: 15px;
+    font-size: 30px;
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#notfunnyanswer {
+    background-color: indianred;
+    width: 250px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    margin: 15px;
+    font-size: 30px;
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#funnyanswer:hover {
+    background-color: white;
+    height: 100%;
+    text-decoration: none;
+}
+
+#notfunnyanswer:hover {
+    background-color: white;
+    height: 100%;
+    text-decoration: none;
+}
