@@ -1,5 +1,7 @@
-var url = 'http://api.icndb.com/jokes/random?exclude=%5Bexplicit%5D';
-console.log(url);
+var url = 'http://api.icndb.com/jokes/$jokenumber';
+
+var randomNumber = Math.floor(Math.random() * 600) + 1;
+console.log(randomNumber);
 
 fetch(url)
 
@@ -8,11 +10,10 @@ fetch(url)
     })
 
     .then(function(response) {
-        console.log(response); /* Access to the data from the API */
-        console.log(response.value.joke);
-    
-    container.innerHTML += '<div class="temp">' + response.value.joke + '</div>'; 
+        console.log(response.value[randomNumber].joke);
+        container.innerHTML += '<div class="temp">' + response.value[randomNumber].joke + '</div>'; 
     })
-
-
     
+     
+    
+

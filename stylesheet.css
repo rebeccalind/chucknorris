@@ -1,17 +1,28 @@
 .background img {
     width: 110%;
     margin-left: -10px;
-    margin-top: -80px;
+    margin-top: -70px;
     position: fixed;
     z-index: 3;
 }
 
+.container-wrapper {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 99;
+    text-align: center;
+}
+
 #container {
-    position: absolute;
+    position: relative;
     z-index: 100;
-    margin-top: 160px;
-    width: 1000px;
-    margin-left: 200px;
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    top: 40%;
+    text-align: center;
+    top: 50%;
 }
 
 .temp {
@@ -35,15 +46,15 @@ a:hover {
 
 .answer_button {
     width: 100%;
-    margin-left: 400px;
     padding-top: 20px;
     text-decoration: none;
     z-index: 200;
     position: absolute;
-    margin-top: 400px;
+    margin-top: 50px;
+    text-align: center;
 }
 
-#funnyanswer {
+#answer {
     background-color: indianred;
     width: 250px;
     display: inline-block;
@@ -53,12 +64,13 @@ a:hover {
     padding-bottom: 10px;
     border: 0px;
     margin: 15px;
-    font-size: 30px;
+    font-size: 18px;
     border: 1px solid white;
     text-decoration: none;
     text-align: center;
 }
 
+/*
 #notfunnyanswer {
     background-color: indianred;
     width: 250px;
@@ -74,15 +86,17 @@ a:hover {
     text-decoration: none;
     text-align: center;
 }
+*/
 
-#funnyanswer:hover {
+#answer:hover {
     background-color: white;
     height: 100%;
     text-decoration: none;
 }
 
+/*
 #notfunnyanswer:hover {
     background-color: white;
     height: 100%;
     text-decoration: none;
-}
+}*/
