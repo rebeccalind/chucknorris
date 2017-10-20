@@ -13,7 +13,3 @@ fetch(url)
         console.log(response.value[randomNumber].joke);
         container.innerHTML += '<div class="temp">' + response.value[randomNumber].joke + '</div>'; 
     })
-    
-     
-    
-

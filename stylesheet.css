@@ -73,33 +73,8 @@ a:hover {
     text-align: center;
 }
 
-/*
-#notfunnyanswer {
-    background-color: #cf2026;
-    width: 250px;
-    display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 0px;
-    margin: 15px;
-    font-size: 30px;
-    border: 1px solid white;
-    text-decoration: none;
-    text-align: center;
-}
-*/
-
 #answer:hover {
     background-color: white;
     height: 100%;
     text-decoration: none;
 }
-
-/*
-#notfunnyanswer:hover {
-    background-color: white;
-    height: 100%;
-    text-decoration: none;
-}*/
