@@ -1,4 +1,5 @@
 var url = 'https://api.icndb.com/jokes/$jokenumber';
+console.log("API from https://api.icndb.com/jokes/$jokenumber");
 
 var randomNumber = Math.floor(Math.random() * 600) + 1;
 console.log(randomNumber);
